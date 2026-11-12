@@ -1,5 +1,8 @@
 name: Build Cove ISO
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
